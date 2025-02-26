@@ -16,14 +16,16 @@ public class StartVowelConsWordCount {
             char c = word.charAt(0);
             if(c=='a'||c=='e'||c=='i'||c=='o'||c=='u'){
                 vCount++;
+                System.out.println("v"+word);
             }else{
                 cCount++;
+                System.out.println("C"+word);
             }
 
 
 
         }
-        System.out.println(vCount);
-        System.out.println(cCount);
+        //System.out.println(vCount);
+       // System.out.println(cCount);
     }
 }

@@ -2,7 +2,7 @@ package ex_16022025.ex_String;
 
 public class StartVowelandConsWord {
     public static void main(String[] args) {
-        String str = "jai shree ram";
+        String str = "aai shree ram";
 
         int vCount =0;
         int cCount =0;
@@ -14,9 +14,11 @@ public class StartVowelandConsWord {
 
             if(c=='a' ||c=='e' ||c=='i' ||c=='o' ||c=='u'){
                 vCount++;
+                System.out.println("Vowel words :"+word);
 
             }else{
                 cCount++;
+                System.out.println("Consonent word :"+word);
             }
 
         }
