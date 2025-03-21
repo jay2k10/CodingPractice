@@ -16,6 +16,7 @@ public class RemoveDuplicateChar {
         System.out.println(set);
         for(Character c : set){
             System.out.println(c);
+
         }
     }
 }

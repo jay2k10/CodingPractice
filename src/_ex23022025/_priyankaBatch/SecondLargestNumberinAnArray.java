@@ -13,7 +13,7 @@ public class SecondLargestNumberinAnArray {
         }
 
         Arrays.sort(arr);
-        for(int i =arr.length-3;i>=0;i--){
+        for(int i =arr.length-2;i>=0;i--){
             if(arr[i]!=arr[arr.length-1]){
                 System.out.println("The 2nd largest no is "+arr[i]);
                 return;

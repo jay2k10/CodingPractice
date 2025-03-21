@@ -11,10 +11,10 @@ public class VowelConsonentWord {
             String s2 = s1[i];
             char c = s2.charAt(0);
             if(c=='a'||c=='e'||c=='i'||c=='o'||c=='u'){
-                System.out.println("Vowel word :"+s2);
+                //System.out.println("Vowel word :"+s2);
                 v++;
             }else{
-                System.out.println("Consonent word: "+s2);
+                //System.out.println("Consonent word: "+s2);
                 c1++;
             }
 

@@ -8,7 +8,7 @@ public class Febonocciiseries {
 
         System.out.println(n1 + " " + n2);
 
-        for (int i = 0; i < 4; i++) {
+        for (int i = 2; i < 8; i++) {
             sum = n1 + n2;
             n1 = n2;
             n2 = sum;

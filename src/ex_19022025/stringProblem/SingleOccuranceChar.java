@@ -20,7 +20,9 @@ public class SingleOccuranceChar {
 
         }
         //System.out.println(map);
-        for(Character k : map.keySet()){
+        //for(Character k : map.keySet()){
+        for (int i = 0; i < s.length(); i++) {
+            Character k = s.charAt(i);
             if(map.get(k)==1){
                 System.out.println("Single occurance char :"+k);
             }
